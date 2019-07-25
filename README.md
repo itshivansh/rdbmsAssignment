@@ -39,7 +39,7 @@ Write the queries to carry out the below listed operations:
 
 1. Clone the base boilerplate in the folder **assignment-solution-rdbms** of your local machine
      
-    `git clone https://gitlab-cts.stackroute.in/stack_dotnet_keep/keepnote-rdbms-assignment-boilerplate.git assignment-solution-rdbms`
+    `git clone https://gitlab-cgi.stackroute.in/stack_dotnet_keep/keepnote-rdbms-assignment-boilerplate.git assignment-solution-rdbms`
 
 2. Navigate to assignment-solution-rdbms folder
 
@@ -53,7 +53,7 @@ Write the queries to carry out the below listed operations:
 
 5. Add your new repository reference as remote
 
-     `git remote add origin https://gitlab-cts.stackroute.in/{{yourusername}}/assignment-solution-rdbms.git`
+     `git remote add origin https://gitlab-cgi.stackroute.in/{{yourusername}}/assignment-solution-rdbms.git`
 
      **Note: {{yourusername}} should be replaced by your username from gitlab**
 

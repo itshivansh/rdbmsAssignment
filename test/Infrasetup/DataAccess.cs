@@ -22,11 +22,12 @@ namespace Test.Infrasetup
             string filepath = rootdir + "queries.json";
             queries = JObject.Parse(File.ReadAllText(filepath));
 
-            string constr = Environment.GetEnvironmentVariable("MSSQL_URL");
-            if (constr == null)
-            {
-                constr = "server=.\\sqlexpress;database=master;integrated security=true;";
-            }
+            //string constr = Environment.GetEnvironmentVariable("MSSQL_URL");
+            //if (constr == null)
+            //{
+                //constr = "server=.\\sqlexpress;database=master;integrated security=true;";
+                  string constr = "server= BHISHM;database=master;user = sa;password=pass@123";
+            //}
             con = new SqlConnection(constr);
             cmd = new SqlCommand();
             cmd.Connection = con;
